@@ -14,7 +14,7 @@ namespace ArcGisProMcpFree.Commands
             long window = await Application.Current.Dispatcher.InvokeAsync(() => new WindowInteropHelper(Application.Current.MainWindow).Handle.ToInt64());
             return await QueuedTask.Run<object>(() => new
             {
-                protocol_version = 2, addin_version = "0.2.2-lab",
+                protocol_version = 2, addin_version = "0.2.3-lab",
                 process_id = Process.GetCurrentProcess().Id, window_handle = window,
                 arcgis_pro_version = FileVersionInfo.GetVersionInfo(Process.GetCurrentProcess().MainModule.FileName).ProductVersion,
                 project_open = Project.Current != null, project_path = Project.Current?.Path ?? "",

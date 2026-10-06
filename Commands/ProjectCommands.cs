@@ -70,7 +70,9 @@ namespace ArcGisProMcpFree.Commands
             {
                 throw new ArgumentException("Map '" + mapName + "' not found.");
             }
-            IMapPane pane = await item.OpenMapPaneAsync();
+            var map = await QueuedTask.Run(() => item.GetMap());
+            // Let the map's stored viewing mode select 2D, local scene, or global scene.
+            IMapPane pane = await FrameworkApplication.Panes.CreateMapPaneAsync(map);
             return new
             {
                 success = true,

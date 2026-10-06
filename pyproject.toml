@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "arcgis-lab-mcp"
-version = "0.2.2"
+version = "0.2.3"
 description = "Native ArcGIS Pro toolbox dialogs and experiment screenshots"
 readme = "README.md"
 requires-python = ">=3.12"

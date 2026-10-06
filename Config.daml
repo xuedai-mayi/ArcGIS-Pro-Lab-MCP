@@ -1,5 +1,5 @@
 <ArcGIS defaultAssembly="ArcGisProMcpFree.dll" defaultNamespace="ArcGisProMcpFree" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
-  <AddInInfo id="{59c64cb3-4493-4270-8a30-43b67c25e82e}" version="0.2.2" desktopVersion="3.5">
+  <AddInInfo id="{59c64cb3-4493-4270-8a30-43b67c25e82e}" version="0.2.3" desktopVersion="3.5">
     <Name>GIS 实验 MCP</Name>
     <Description>Native toolbox dialogs, geoprocessing, and experiment evidence. ArcGIS Pro 3.5.</Description>
     <Image>Images\mcp_red32.png</Image>
